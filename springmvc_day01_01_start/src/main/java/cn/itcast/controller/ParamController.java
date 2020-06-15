@@ -69,6 +69,10 @@ public class ParamController {
         System.out.println(servletContext);
 
         System.out.println(response);
+
+        // 获取客户端ip
+        System.out.println("ip:"+request.getRemoteAddr());
+
         return "success";
     }
 
